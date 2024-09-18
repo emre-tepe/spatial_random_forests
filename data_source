@@ -1,0 +1,6 @@
+# download the Miami parcel data
+import requests
+url="https://www.dropbox.com/scl/fi/vhsng5ueidnjgfddmq7g7/Miami_parcels_for_RF_df_rev2.csv?rlkey=yktycvz2owyotpfjb1dipm8v4&st=nez73zyq&dl=0"
+file = open("file_name.pdf", 'w')
+file.write(r.read())
+file.close()
